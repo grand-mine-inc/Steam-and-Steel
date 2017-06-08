@@ -27,3 +27,4 @@ bin
 build
 eclipse
 gradle
+.metadata
