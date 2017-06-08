@@ -1,0 +1,29 @@
+//blocks
+tile.BlockCopperOre.name=Медная Руда
+tile.BlockTinOre.name=Оловянная Руда
+tile.BlockLeadOre.name=Свинцовая Руда
+tile.BlockUraniumOre.name=Урановая Руда
+tile.BlockAluminiumOre.name=Алюминиевая Руда
+tile.BlockNickelOre.name=Никелевая руда
+tile.BlockRubyOre.name=Рубиновая Руда
+tile.BlockSulfurOre.name=Серная Руда
+tile.CopperBlock.name=Медный Блок
+tile.LeadBlock.name=Свинцовый Блок
+tile.TinBlock.name=Оловянный Блок
+tile.UraniumBlock.name=Урановый Блок
+tile.AluminiumBlock.name=Алюминиевый Блок
+tile.NickelBlock.name=Никелевый Блок
+tile.RubyBlock.name=Рубиновый Блок
+
+//items
+item.CopperIngot.name=Медный Слиток
+item.AluminiumIngot.name=Алюминиевый Слиток
+item.LeadIngot.name=Свинцовый Слиток
+item.NickelIngot.name=Никелевый Слиток
+item.TinIngot.name=Оловянный Слиток
+item.UraniumIngot.name=Урановый Слиток
+item.Ruby.name=Рубин
+
+//creativetabs
+itemGroup.GrandBlocks=Grand: Блоки
+itemGroup.GrandItem=Grand: Предметы

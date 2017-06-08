@@ -1,0 +1,20 @@
+[
+{
+  "modid": "steamstell",
+  "name": "Steam and Stell",
+  "description": "Steam and Stell",
+  "version": "PreApha0.4.1",
+  "url": "",
+  "updateUrl": "",
+  "authorList": [
+    "ganymedes01"
+  ],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [
+  ],
+  "parent":"",
+  "dependencies": [
+  ]
+}
+]
