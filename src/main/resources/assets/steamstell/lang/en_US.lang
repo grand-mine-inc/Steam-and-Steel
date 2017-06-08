@@ -1,0 +1,29 @@
+//blocks
+tile.BlockCopperOre.name=Copper Ore
+tile.BlockTinOre.name=Tin Ore
+tile.BlockLeadOre.name=Lead Ore
+tile.BlockUraniumOre.name=Uranium ore
+tile.BlockAluminiumOre.name=Aluminium Ore
+tile.BlockNickelOre.name=Nickel Ore
+tile.BlockRubyOre.name=Ruby Ore
+tile.BlockSulfurOre.name=Sulfur Ore
+tile.CopperBlock.name=Copper Block
+tile.LeadBlock.name=Lead Block
+tile.TinBlock.name=Tin Block
+tile.UraniumBlock.name=Uranium Block
+tile.AluminiumBlock.name=Aluminium Block
+tile.NickelBlock.name=Nickel Block
+tile.RubyBlock.name=Ruby Block
+
+//items
+item.CopperIngot.name=Copper Ingot
+item.AluminiumIngot.name=Aluminium Ingot
+item.LeadIngot.name=Lead Ingot
+item.NickelIngot.name=Nickel Ingot
+item.TinIngot.name=Tin Ingot
+item.UraniumIngot.name=Uranium Ingot
+item.Ruby.name=Ruby
+
+//creativetabs
+itemGroup.GrandBlocks=Grand: Blocks
+itemGroup.GrandItem=Grand: Items
