@@ -23,6 +23,7 @@ item.NickelIngot.name=Nickel Ingot
 item.TinIngot.name=Tin Ingot
 item.UraniumIngot.name=Uranium Ingot
 item.Ruby.name=Ruby
+item.SulfurDust.name=Sulfur Dust
 
 //creativetabs
 itemGroup.GrandBlocks=Grand: Blocks

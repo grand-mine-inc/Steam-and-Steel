@@ -23,6 +23,7 @@ item.NickelIngot.name=Никелевый Слиток
 item.TinIngot.name=Оловянный Слиток
 item.UraniumIngot.name=Урановый Слиток
 item.Ruby.name=Рубин
+ttem.SulfurDust.name=Серная пыль
 
 //creativetabs
 itemGroup.GrandBlocks=Grand: Блоки
