@@ -5,7 +5,7 @@ import cpw.mods.fml.common.registry.GameRegistry;
 public final class GrandTileEntities {
 
     public static void init() {
-        GameRegistry.registerTileEntity(FluidTileEntity.class, "grand_tile_entity");
+        GameRegistry.registerTileEntity(TileGlassFluidTank.class, "tile_glass_fluid_tank");
     }
 
 }
