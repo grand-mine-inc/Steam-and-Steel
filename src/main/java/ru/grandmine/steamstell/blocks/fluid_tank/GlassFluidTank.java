@@ -18,15 +18,15 @@ import net.minecraft.world.World;
 import net.minecraftforge.common.util.ForgeDirection;
 import net.minecraftforge.fluids.IFluidHandler;
 
-public class GlassFluidTank extends Block implements ITileEntityProvider {
+public class GlassFluidTank extends BlockContainer {
 	
-	public static int renderID;
 	@SideOnly(Side.CLIENT)
     private IIcon bottomIcon;
     @SideOnly(Side.CLIENT)
     private IIcon topIcon;
     @SideOnly(Side.CLIENT)
     private IIcon sideIcon;
+    public static final int MAXFLUID = 8000;
 	
 	public GlassFluidTank() {
 		
@@ -36,6 +36,7 @@ public class GlassFluidTank extends Block implements ITileEntityProvider {
 		setCreativeTab(GrandBlocks.tabGrandBlocks);
 		setLightOpacity(0);
 		setStepSound(soundTypeGlass);
+		setTickRandomly(isBlockContainer);
 	}
 	
 	@Override

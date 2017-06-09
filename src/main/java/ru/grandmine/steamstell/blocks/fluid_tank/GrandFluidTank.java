@@ -6,7 +6,7 @@ import net.minecraft.block.BlockContainer;
 
 public class GrandFluidTank {
 
-	public static Block glassfluidtank;
+	public static BlockContainer glassfluidtank;
 	
 	public static final void init() {
 		

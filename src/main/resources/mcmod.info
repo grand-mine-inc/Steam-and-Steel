@@ -3,14 +3,14 @@
   "modid": "steamstell",
   "name": "Steam and Stell",
   "description": "Steam and Stell",
-  "version": "PreApha0.4.6",
+  "version": "PreApha0.4.7",
   "url": "",
   "updateUrl": "",
   "authorList": [
     "Grand-Mine"
   ],
   "credits": "",
-  "logoFile": "",
+  "logoFile": "logo.png",
   "screenshots": [
   ],
   "parent":"",
