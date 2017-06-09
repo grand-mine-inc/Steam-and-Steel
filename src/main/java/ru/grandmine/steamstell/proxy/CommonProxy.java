@@ -1,6 +1,7 @@
 package ru.grandmine.steamstell.proxy;
 
 import ru.grandmine.steamstell.blocks.GrandBlocks;
+import ru.grandmine.steamstell.blocks.fluid_tank.GrandFluidTank;
 import ru.grandmine.steamstell.crafting.BaseCraft;
 import ru.grandmine.steamstell.item.GrandItem;
 import ru.grandmine.steamstell.tileentity.GrandTileEntities;
@@ -15,6 +16,7 @@ public class CommonProxy {
     	 GrandItem.init();
     	 GrandBlocks.init();
     	 BaseCraft.init();
+    	 GrandFluidTank.init();
     	 GrandTileEntities.init();
     }
 

@@ -14,6 +14,7 @@ tile.UraniumBlock.name=Урановый Блок
 tile.AluminiumBlock.name=Алюминиевый Блок
 tile.NickelBlock.name=Никелевый Блок
 tile.RubyBlock.name=Рубиновый Блок
+tile.FluidTank.name=Жидкостная цистерна
 
 //items
 item.CopperIngot.name=Медный Слиток
