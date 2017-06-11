@@ -1,7 +1,5 @@
 package ru.grandmine.steamstell.tileentity;
 
-import com.sun.xml.internal.stream.Entity;
-
 import ru.grandmine.steamstell.blocks.fluid_tank.GlassFluidTank;
 import net.minecraft.entity.item.EntityItem;
 import net.minecraft.entity.player.EntityPlayer;
