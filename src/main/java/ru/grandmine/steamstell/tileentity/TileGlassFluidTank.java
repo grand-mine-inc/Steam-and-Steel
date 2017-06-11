@@ -1,13 +1,18 @@
 package ru.grandmine.steamstell.tileentity;
 
+import com.sun.xml.internal.stream.Entity;
+
 import ru.grandmine.steamstell.blocks.fluid_tank.GlassFluidTank;
+import net.minecraft.entity.item.EntityItem;
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.network.NetworkManager;
 import net.minecraft.network.Packet;
 import net.minecraft.network.play.server.S35PacketUpdateTileEntity;
 import net.minecraft.tileentity.TileEntity;
+import net.minecraft.world.World;
 import net.minecraftforge.common.util.ForgeDirection;
 import net.minecraftforge.fluids.Fluid;
 import net.minecraftforge.fluids.FluidStack;
@@ -25,10 +30,11 @@ public class TileGlassFluidTank extends TileEntity implements IFluidHandler {
 
 	public TileGlassFluidTank() {
 
+		
 	}
 	public TileGlassFluidTank(int x, int y, int z) {
 	worldObj.getTileEntity(x, y, z);
-
+	
 	}
 	
 	@Override
@@ -126,5 +132,5 @@ public class TileGlassFluidTank extends TileEntity implements IFluidHandler {
 	{
 		NBTTagCompound tag = pkt.func_148857_g();
 		readFromNBT(tag);
+	}	
 	}
-}
