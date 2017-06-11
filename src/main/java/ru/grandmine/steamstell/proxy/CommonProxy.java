@@ -5,9 +5,11 @@ import ru.grandmine.steamstell.blocks.fluid_tank.GrandFluidTank;
 import ru.grandmine.steamstell.crafting.BaseCraft;
 import ru.grandmine.steamstell.item.GrandItem;
 import ru.grandmine.steamstell.tileentity.GrandTileEntities;
+import ru.grandmine.steamstell.tileentity.TileGlassFluidTank;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.registry.GameRegistry;
 
 public class CommonProxy {
 
@@ -22,9 +24,21 @@ public class CommonProxy {
 
     public void init(FMLInitializationEvent e) {
 
+    	registerRenders();
+    	registerTiles();
+    	
     }
 
     public void postInit(FMLPostInitializationEvent e) {
+
+    }
+    
+    public void registerTiles() {
+    	GameRegistry.registerTileEntity(TileGlassFluidTank.class, "leadTank");
+    }
+
+    public void registerRenders()
+    {
 
     }
 	 
