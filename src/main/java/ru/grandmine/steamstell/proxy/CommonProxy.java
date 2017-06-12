@@ -6,6 +6,7 @@ import ru.grandmine.steamstell.crafting.BaseCraft;
 import ru.grandmine.steamstell.item.GrandItem;
 import ru.grandmine.steamstell.tileentity.GrandTileEntities;
 import ru.grandmine.steamstell.tileentity.TileGlassFluidTank;
+import ru.grandmine.steamstell.world.BaseWorldGeneration;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
@@ -26,6 +27,8 @@ public class CommonProxy {
 
     	registerRenders();
     	registerTiles();
+    	
+    	GameRegistry.registerWorldGenerator(new BaseWorldGeneration(), 0);
     	
     }
 

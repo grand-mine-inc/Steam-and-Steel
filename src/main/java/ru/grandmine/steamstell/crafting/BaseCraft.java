@@ -1,7 +1,9 @@
 package ru.grandmine.steamstell.crafting;
 
+import net.minecraft.init.Blocks;
 import net.minecraft.item.ItemStack;
 import ru.grandmine.steamstell.blocks.GrandBlocks;
+import ru.grandmine.steamstell.blocks.fluid_tank.GrandFluidTank;
 import ru.grandmine.steamstell.item.GrandItem;
 import cpw.mods.fml.common.registry.GameRegistry;
 
@@ -28,6 +30,8 @@ public class BaseCraft {
 		GameRegistry.addRecipe( new ItemStack(GrandItem.tiningot, 9), new Object[] { "#", '#', GrandBlocks.tinblock});
 		GameRegistry.addRecipe( new ItemStack(GrandBlocks.uraniumblock), new Object[] { "###", "###", "###", '#', GrandItem.uraniumingot});
 		GameRegistry.addRecipe( new ItemStack(GrandItem.uraniumingot, 9), new Object[] { "#", '#', GrandBlocks.uraniumblock});
+		GameRegistry.addRecipe( new ItemStack(GrandFluidTank.glassfluidtank), new Object[] { "###", "# #", "111", '#', Blocks.glass, '1', GrandItem.glassbottomtank});
+		GameRegistry.addRecipe( new ItemStack(GrandItem.glassbottomtank, 3), new Object[] { "###", '#', Blocks.glass_pane});
 		
 	}
 	

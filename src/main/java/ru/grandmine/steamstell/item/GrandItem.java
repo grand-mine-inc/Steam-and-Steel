@@ -20,6 +20,7 @@ public final class GrandItem {
 	public static Item uraniumingot;
 	public static Item ruby;
 	public static Item sulfurdust;
+	public static Item glassbottomtank;
 	
 	public static final void init() {
 		
@@ -31,6 +32,7 @@ public final class GrandItem {
 		uraniumingot = new UraniumIngot();
 		ruby = new Ruby();
 		sulfurdust = new SulfurDust();
+		glassbottomtank = new GlassBottomTank();
 		
 		GameRegistry.registerItem(copperingot, "copper_ingot");
 		GameRegistry.registerItem(aluminiumingot, "aluminium_ingot");
@@ -40,6 +42,7 @@ public final class GrandItem {
 		GameRegistry.registerItem(uraniumingot, "uranium_ingot");
 		GameRegistry.registerItem(ruby, "ruby");
 		GameRegistry.registerItem(sulfurdust, "sulfur_dust");
+		GameRegistry.registerItem(glassbottomtank, "glass_bottom_tank");
 		
     }
 	

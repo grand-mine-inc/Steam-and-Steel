@@ -40,4 +40,23 @@ public class BlockRubyOre extends Block {
 		
     }
 	
+	public int quantityDroppedWithBonus(int p_149679_1_, Random p_149679_2_)
+    {
+        if (p_149679_1_ > 0 && Item.getItemFromBlock(this) != this.getItemDropped(0, p_149679_2_, p_149679_1_))
+        {
+            int j = p_149679_2_.nextInt(p_149679_1_ + 2) - 1;
+
+            if (j < 0)
+            {
+                j = 0;
+            }
+
+            return this.quantityDropped(p_149679_2_) * (j + 1);
+        }
+        else
+        {
+            return this.quantityDropped(p_149679_2_);
+        }
+    }
+	
 }

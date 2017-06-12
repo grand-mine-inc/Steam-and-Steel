@@ -49,6 +49,8 @@ public class GlassFluidTank extends Block implements ITileEntityProvider {
 		setLightOpacity(0);
 		setStepSound(soundTypeGlass);
 		setTickRandomly(isBlockContainer);
+		setHardness(0.3F);
+		setResistance(0.45F);
 	}
 	
 

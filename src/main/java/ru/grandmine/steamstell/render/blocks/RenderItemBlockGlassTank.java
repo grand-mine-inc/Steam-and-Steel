@@ -38,7 +38,7 @@ public class RenderItemBlockGlassTank implements IItemRenderer {
 				FluidStack liquid = FluidStack.loadFluidStackFromNBT(item.getTagCompound().getCompoundTag("Fluid"));
 				if (liquid != null) {
 					GL11.glEnable(GL11.GL_BLEND);
-					float height = ((float) liquid.amount / (float) 20000 * (float) 0.99);
+					float height = ((float) liquid.amount / (float) 8000 * (float) 0.99);
 					renderblocks.setRenderBounds(0.01, 0.01, 0.01, 0.99, height, 0.99);
 					Utils.renderInventoryBlock(renderblocks, GrandFluidTank.renderblocks, liquid.getFluid());
 					GL11.glDisable(GL11.GL_BLEND);

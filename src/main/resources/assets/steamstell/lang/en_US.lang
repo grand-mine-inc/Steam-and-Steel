@@ -14,7 +14,7 @@ tile.UraniumBlock.name=Uranium Block
 tile.AluminiumBlock.name=Aluminium Block
 tile.NickelBlock.name=Nickel Block
 tile.RubyBlock.name=Ruby Block
-tile.FluidTank.name=Fluid Tank
+tile.GlassFluidTank.name=Glass Fluid Tank
 
 //items
 item.CopperIngot.name=Copper Ingot
